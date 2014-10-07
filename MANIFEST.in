@@ -1,0 +1,5 @@
+include RELEASE-VERSION
+include Makefile
+include conf.py
+include version.py
+include *.rst
