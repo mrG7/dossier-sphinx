@@ -44,6 +44,7 @@ setup(
         'Sphinx',
         'sphinxcontrib-httpdomain',
         'dossier.fc',
+        'dossier.label',
         'dossier.store',
     ],
     # there must be a data_files for install_data to run

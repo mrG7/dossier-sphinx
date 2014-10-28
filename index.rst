@@ -16,6 +16,11 @@ Dossier Stack documentation
 .. automodule:: dossier.store
 
 
+:mod:`dossier.label` --- store ground truth data as labels
+==========================================================
+.. automodule:: dossier.label
+
+
 Indices and tables
 ==================
 
