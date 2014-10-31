@@ -21,6 +21,11 @@ Dossier Stack documentation
 .. automodule:: dossier.label
 
 
+:mod:`dossier.web` --- DossierStack web services
+================================================
+.. automodule:: dossier.web
+
+
 Indices and tables
 ==================
 

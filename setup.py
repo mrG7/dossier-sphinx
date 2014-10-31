@@ -46,6 +46,7 @@ setup(
         'dossier.fc',
         'dossier.label',
         'dossier.store',
+        'dossier.web',
     ],
     # there must be a data_files for install_data to run
     data_files=['MARKER.txt'],
