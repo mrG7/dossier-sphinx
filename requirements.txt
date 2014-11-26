@@ -1,0 +1,8 @@
+docutils
+Sphinx
+sphinxcontrib-httpdomain
+dossier.fc
+dossier.label
+dossier.store
+dossier.web
+dossier.models

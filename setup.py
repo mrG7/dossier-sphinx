@@ -47,6 +47,7 @@ setup(
         'dossier.label',
         'dossier.store',
         'dossier.web',
+        'dossier.models',
     ],
     # there must be a data_files for install_data to run
     data_files=['MARKER.txt'],
