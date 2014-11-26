@@ -21,6 +21,11 @@ Dossier Stack documentation
 .. automodule:: dossier.label
 
 
+:mod:`dossier.models` --- Active learning
+=========================================
+.. automodule:: dossier.models
+
+
 :mod:`dossier.web` --- DossierStack web services
 ================================================
 .. automodule:: dossier.web
