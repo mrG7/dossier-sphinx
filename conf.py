@@ -282,5 +282,8 @@ class Mock(MagicMock):
     def __getattr__(cls, name):
             return Mock()
 
-MOCK_MODULES = ['snappy', 'thrift', 'pyaccumulo']
+MOCK_MODULES = [
+    'snappy', 'thrift', 'ttypes', 'thrift.Thrift',
+    'pyaccumulo', 'pyaccumulo.iterators',
+]
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
