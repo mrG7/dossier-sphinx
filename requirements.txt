@@ -1,6 +1,7 @@
 docutils
 Sphinx
 sphinxcontrib-httpdomain
+mock
 dossier.fc
 dossier.label
 dossier.store

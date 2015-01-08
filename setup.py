@@ -48,6 +48,7 @@ setup(
         'dossier.store',
         'dossier.web',
         'dossier.models',
+        'mock',
     ],
     # there must be a data_files for install_data to run
     data_files=['MARKER.txt'],
