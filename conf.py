@@ -287,5 +287,6 @@ MOCK_MODULES = [
     'pyaccumulo', 'pyaccumulo.iterators',
     'streamcorpus', 'kvlayer',
     'dblogger', 'argparse', 'tblib',
+    'yakonfig',
 ]
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
