@@ -286,5 +286,6 @@ MOCK_MODULES = [
     'snappy', 'thrift', 'ttypes', 'thrift.Thrift',
     'pyaccumulo', 'pyaccumulo.iterators',
     'streamcorpus', 'kvlayer',
+    'dblogger', 'argparse', 'tblib',
 ]
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
