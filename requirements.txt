@@ -5,5 +5,5 @@ mock
 dossier.fc
 dossier.label
 dossier.store
-dossier.web
+dossier.web>=0.6.1
 dossier.models
