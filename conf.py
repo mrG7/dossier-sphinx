@@ -285,8 +285,12 @@ class Mock(MagicMock):
 MOCK_MODULES = [
     'snappy', 'thrift', 'ttypes', 'thrift.Thrift',
     'pyaccumulo', 'pyaccumulo.iterators',
-    'streamcorpus', 'kvlayer',
+    'streamcorpus', 'streamcorpus_pipeline',
+    'streamcorpus_pipeline._clean_visible',
+    'streamcorpus_pipeline._clean_html',
+    'kvlayer',
     'dblogger', 'argparse', 'tblib',
     'yakonfig', 'yakonfig.factory',
+    'happybase',
 ]
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
