@@ -288,11 +288,15 @@ MOCK_MODULES = [
     'streamcorpus', 'streamcorpus_pipeline',
     'streamcorpus_pipeline._clean_visible',
     'streamcorpus_pipeline._clean_html',
+    'streamcorpus_pipeline.stages',
+    'streamcorpus_pipeline._pipeline',
     'kvlayer',
     'dblogger', 'argparse', 'tblib',
     'yakonfig', 'yakonfig.factory',
-    'happybase',
+    'happybase', 'happybase.hbase', 'happybase.hbase.ttypes',
     'sklearn.feature_extraction',
     'nltk', 'nltk.corpus', 'nltk.tokenize', 'nltk.util',
+    'dossier.models.web.config',
+    'elasticsearch', 'elasticsearch.helpers',
 ]
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
