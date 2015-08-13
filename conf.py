@@ -298,5 +298,6 @@ MOCK_MODULES = [
     'nltk', 'nltk.corpus', 'nltk.tokenize', 'nltk.util',
     'dossier.models.web.config',
     'elasticsearch', 'elasticsearch.helpers',
+    'scipy', 'scipy.spatial', 'scipy.spatial.distance',
 ]
 sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
